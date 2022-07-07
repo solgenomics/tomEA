@@ -56,7 +56,7 @@ $heatmap_tab = 1;
 $scatterplot_tab = 1;
 $network_tab = 0;
 
-if($project_name eq "S.lycopersicum M82 Fruit Water Stress v29"){
+if($project_name eq "S.lycopersicum M82 Water Stress Expression Cube"){
 $expr_imgs_tab = 0;
 }
 
@@ -453,7 +453,7 @@ close_btn.onclick = function() {
   });
   document.getElementById("select_tab_modal").style.display="none";
 
-  if (project_name == "S.lycopersicum M82 Fruit Water Stress v25") {
+  if (project_name == "S.lycopersicum M82 Water Stress Expression Images") {
     var element = document.getElementById("container");
         element.style.display = "none";
     var element2 = document.getElementById("cube_tab");
